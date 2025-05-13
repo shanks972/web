@@ -39,7 +39,7 @@ const HomeScreen = () => {
           room: "301",
           type: "Лекц",
           details: {
-            attendance: { present: 12, absent: 3, total: 15, percentage: "80%" },
+            attendance: { present: 14, absent: 1, total: 15, percentage: "93%" },
             seminarTasks: [
               { title: "Гараар өгөгдөл оруулах", due: "2023-03-15", status: "done" },
               { title: "SQL query бичих", due: "2023-03-22", status: "pending" }
@@ -53,7 +53,7 @@ const HomeScreen = () => {
           room: "205",
           type: "Семинар",
           details: {
-            attendance: { present: 10, absent: 5, total: 15, percentage: "67%" },
+            attendance: { present: 8, absent: 7, total: 15, percentage: "53%" },
             seminarTasks: [
               { title: "ER диаграм зурж ирэх", due: "2023-03-16", status: "done" },
               { title: "Хүснэгт үүсгэх", due: "2023-03-23", status: "pending" }
@@ -67,7 +67,7 @@ const HomeScreen = () => {
           room: "105",
           type: "Лекц",
           details: {
-            attendance: { present: 14, absent: 1, total: 15, percentage: "93%" },
+            attendance: { present: 12, absent: 3, total: 15, percentage: "80%" },
             seminarTasks: []
           }
         }
@@ -83,7 +83,7 @@ const HomeScreen = () => {
           room: "401",
           type: "Лекц",
           details: {
-            attendance: { present: 14, absent: 1, total: 15, percentage: "93%" },
+            attendance: { present: 15, absent: 0, total: 15, percentage: "100%" },
             seminarTasks: [
               { title: "HTML form бүтээх", due: "2023-03-17", status: "done" },
               { title: "CSS стиль хийх", due: "2023-03-24", status: "pending" }
@@ -97,13 +97,14 @@ const HomeScreen = () => {
           room: "302",
           type: "Семинар",
           details: {
-            attendance: { present: 9, absent: 6, total: 15, percentage: "60%" },
+            attendance: { present: 6, absent: 9, total: 15, percentage: "40%" },
             seminarTasks: [
               { title: "IP хаяг тооцоолох", due: "2023-03-18", status: "done" },
               { title: "Сүлжээний топологи зурах", due: "2023-03-25", status: "pending" }
             ]
           }
         }
+        
       ]
     },
     { 
@@ -116,7 +117,7 @@ const HomeScreen = () => {
           room: "301",
           type: "Лекц",
           details: {
-            attendance: { present: 11, absent: 4, total: 15, percentage: "73%" },
+            attendance: { present: 13, absent: 2, total: 15, percentage: "87%" },
             seminarTasks: []
           }
         },
@@ -127,22 +128,11 @@ const HomeScreen = () => {
           room: "205",
           type: "Семинар",
           details: {
-            attendance: { present: 12, absent: 3, total: 15, percentage: "80%" },
+            attendance: { present: 9, absent: 6, total: 15, percentage: "60%" },
             seminarTasks: [
               { title: "Хүснэгтэй ажиллах", due: "2023-03-19", status: "done" },
               { title: "SQL query бичих", due: "2023-03-26", status: "pending" }
             ]
-          }
-        },
-        { 
-          time: "14:00 - 15:30", 
-          subject: "Англи хэл", 
-          code: "ENG103", 
-          room: "210",
-          type: "Лекц",
-          details: {
-            attendance: { present: 13, absent: 2, total: 15, percentage: "87%" },
-            seminarTasks: []
           }
         }
       ]
@@ -157,7 +147,7 @@ const HomeScreen = () => {
           room: "301",
           type: "Лекц",
           details: {
-            attendance: { present: 10, absent: 5, total: 15, percentage: "67%" },
+            attendance: { present: 11, absent: 4, total: 15, percentage: "73%" },
             seminarTasks: []
           }
         },
@@ -182,7 +172,7 @@ const HomeScreen = () => {
           room: "302",
           type: "Лекц",
           details: {
-            attendance: { present: 8, absent: 7, total: 15, percentage: "53%" },
+            attendance: { present: 7, absent: 8, total: 15, percentage: "47%" },
             seminarTasks: []
           }
         }
@@ -198,32 +188,7 @@ const HomeScreen = () => {
           room: "105",
           type: "Лекц",
           details: {
-            attendance: { present: 12, absent: 3, total: 15, percentage: "80%" },
-            seminarTasks: []
-          }
-        },
-        { 
-          time: "10:00 - 11:30", 
-          subject: "Англи хэл", 
-          code: "ENG103", 
-          room: "210",
-          type: "Семинар",
-          details: {
-            attendance: { present: 15, absent: 0, total: 15, percentage: "100%" },
-            seminarTasks: [
-              { title: "Эссе бичих", due: "2023-03-21", status: "done" },
-              { title: "Презентаци бэлтгэх", due: "2023-03-28", status: "pending" }
-            ]
-          }
-        },
-        { 
-          time: "14:00 - 15:30", 
-          subject: "Философи", 
-          code: "PHIL101", 
-          room: "107",
-          type: "Лекц",
-          details: {
-            attendance: { present: 9, absent: 6, total: 15, percentage: "60%" },
+            attendance: { present: 10, absent: 5, total: 15, percentage: "67%" },
             seminarTasks: []
           }
         }
@@ -240,9 +205,9 @@ const HomeScreen = () => {
       status: "attended",
       room: "301",
       details: {
-        lectureAttendance: { present: 12, absent: 3, total: 15, percentage: "80%" },
-        seminarAttendance: { present: 10, absent: 2, total: 12, percentage: "83%" },
-        scores: { seminar: 20, assignment: 15, total: 35 },
+        lectureAttendance: { present: 14, absent: 1, total: 15, percentage: "93%" },
+        seminarAttendance: { present: 12, absent: 3, total: 15, percentage: "80%" },
+        scores: { seminar: 18, assignment: 25, total: 43 },
         seminarTasks: [
           { title: "Объект хандалтын програмчлал", due: "2023-03-20", status: "done" },
           { title: "Интерфэйс бүтээх", due: "2023-03-27", status: "pending" }
@@ -251,14 +216,14 @@ const HomeScreen = () => {
     },
     {
       time: "10:00 - 11:30",
-      subject: "Өгөгдлийн сан",
+      subject: "Хиймэл оюун ухаан",
       code: "CS306",
       type: "Семинар",
       status: "missed",
       room: "205",
       details: {
-        lectureAttendance: { present: 8, absent: 4, total: 12, percentage: "67%" },
-        seminarAttendance: { present: 7, absent: 5, total: 12, percentage: "58%" },
+        lectureAttendance: { present: 8, absent: 7, total: 15, percentage: "53%" },
+        seminarAttendance: { present: 9, absent: 6, total: 15, percentage: "60%" },
         scores: { seminar: 15, assignment: 20, total: 35 },
         seminarTasks: [
           { title: "Хүснэгт үүсгэх", due: "2023-03-21", status: "done" },
@@ -274,9 +239,26 @@ const HomeScreen = () => {
       status: "pending",
       room: "401",
       details: {
-        lectureAttendance: { present: 14, absent: 1, total: 15, percentage: "93%" },
-        seminarAttendance: { present: 12, absent: 0, total: 12, percentage: "100%" },
-        scores: { seminar: 5, assignment: 30, total: 35 },
+        lectureAttendance: { present: 15, absent: 0, total: 15, percentage: "100%" },
+        seminarAttendance: { present: 14, absent: 1, total: 15, percentage: "93%" },
+        scores: { seminar: 20, assignment: 28, total: 48 },
+        seminarTasks: [
+          { title: "HTML form бүтээх", due: "2023-03-22", status: "done" },
+          { title: "JavaScript validation", due: "2023-03-29", status: "pending" }
+        ]
+      }
+    },
+        {
+      time: "14:00 - 15:30",
+      subject: "Вэб хөгжүүлэлт",
+      code: "CS308",
+      type: "Лекц",
+      status: "pending",
+      room: "401",
+      details: {
+        lectureAttendance: { present: 15, absent: 0, total: 15, percentage: "100%" },
+        seminarAttendance: { present: 14, absent: 1, total: 15, percentage: "93%" },
+        scores: { seminar: 20, assignment: 28, total: 48 },
         seminarTasks: [
           { title: "HTML form бүтээх", due: "2023-03-22", status: "done" },
           { title: "JavaScript validation", due: "2023-03-29", status: "pending" }
@@ -386,6 +368,41 @@ const HomeScreen = () => {
           <>
             <View style={styles.sectionContainer}>
               <View style={styles.sectionHeader}>
+                <Text style={styles.sectionTitle}>7 хоногийн хичээлийн хуваарь</Text>
+              </View>
+              <ScrollView 
+                horizontal 
+                showsHorizontalScrollIndicator={false}
+                contentContainerStyle={styles.scheduleScrollContainer}
+              >
+                {classSchedule.map((daySchedule, dayIndex) => (
+                  <View key={dayIndex} style={styles.scheduleCard}>
+                    <Text style={styles.scheduleDay}>{daySchedule.day}</Text>
+                    {daySchedule.classes.map((classItem, classIndex) => (
+                      <TouchableOpacity
+                        key={classIndex}
+                        style={styles.scheduleItem}
+                        onPress={() => openScheduleClassDetails(classItem)}
+                        activeOpacity={0.7}
+                      >
+                        <Text style={styles.scheduleTime}>{classItem.time}</Text>
+                        <View style={styles.scheduleDetails}>
+                          <Text style={styles.scheduleSubject}>{classItem.subject}</Text>
+                          <View style={styles.scheduleMeta}>
+                            <Text style={styles.scheduleCode}>{classItem.code}</Text>
+                            <Text style={styles.scheduleRoom}>{classItem.room} тоот</Text>
+                          </View>
+                          <Text style={styles.scheduleType}>{classItem.type}</Text>
+                        </View>
+                      </TouchableOpacity>
+                    ))}
+                  </View>
+                ))}
+              </ScrollView>
+            </View>
+
+            <View style={styles.sectionContainer}>
+              <View style={styles.sectionHeader}>
                 <Text style={styles.sectionTitle}>Мэдэгдэл</Text>
                 <TouchableOpacity>
                   <Text style={styles.seeAllText}>Бүгдийг харах</Text>
@@ -418,82 +435,83 @@ const HomeScreen = () => {
                 ))}
               </View>
             </View>
-
-            <View style={styles.sectionContainer}>
-              <View style={styles.sectionHeader}>
-                <Text style={styles.sectionTitle}>7 хоногийн хичээлийн хуваарь</Text>
-              
-              </View>
-              <ScrollView 
-                horizontal 
-                showsHorizontalScrollIndicator={false}
-                contentContainerStyle={styles.scheduleScrollContainer}
-              >
-                {classSchedule.map((daySchedule, dayIndex) => (
-                  <View key={dayIndex} style={styles.scheduleCard}>
-                    <Text style={styles.scheduleDay}>{daySchedule.day}</Text>
-                    {daySchedule.classes.map((classItem, classIndex) => (
-                      <TouchableOpacity
-                        key={classIndex}
-                        style={styles.scheduleItem}
-                        onPress={() => openScheduleClassDetails(classItem)}
-                        activeOpacity={0.7}
-                      >
-                        <Text style={styles.scheduleTime}>{classItem.time}</Text>
-                        <View style={styles.scheduleDetails}>
-                          <Text style={styles.scheduleSubject}>{classItem.subject}</Text>
-                          <View style={styles.scheduleMeta}>
-                            <Text style={styles.scheduleCode}>{classItem.code}</Text>
-                            <Text style={styles.scheduleRoom}>{classItem.room} тоот</Text>
-                          </View>
-                          <Text style={styles.scheduleType}>{classItem.type}</Text>
-                        </View>
-                      </TouchableOpacity>
-                    ))}
-                  </View>
-                ))}
-              </ScrollView>
-            </View>
           </>
         )}
 
         {activeTab === 'Хичээл' && (
           <View style={styles.sectionContainer}>
             <View style={styles.sectionHeader}>
-              <Text style={styles.sectionTitle}>Өнөөдрийн хичээлүүд</Text>
-              
+              <Text style={styles.sectionTitle}>Судалж буй хичээлүүд</Text>
             </View>
             <View style={styles.classesContainer}>
-              {todayClasses.map((classItem, index) => (
-                <TouchableOpacity 
-                  key={index} 
-                  style={styles.classCard}
-                  onPress={() => openClassDetails(classItem)}
-                  activeOpacity={0.8}
-                >
-                  <View style={styles.classHeader}>
-                    <Text style={styles.classTime}>{classItem.time}</Text>
-                    <View style={[
-                      styles.statusBadge,
-                      { backgroundColor: getStatusColor(classItem.status) }
-                    ]}>
-                      <Text style={styles.classStatus}>
-                        {classItem.status === 'attended' ? 'Ирсэн' : 
-                        classItem.status === 'missed' ? 'Тасалсан' : 'Хүлээгдэж буй'}
-                      </Text>
+              {classSchedule.flatMap(day => day.classes)
+                .filter((course, index, self) => 
+                  index === self.findIndex(c => c.code === course.code)
+                )
+                .map((course, index) => (
+                  <TouchableOpacity 
+                    key={index} 
+                    style={styles.courseCard}
+                    onPress={() => openClassDetails(course)}
+                    activeOpacity={0.8}
+                  >
+                    <View style={styles.courseHeader}>
+                      <View style={styles.courseTitleContainer}>
+                        <Text style={styles.courseName}>{course.subject}</Text>
+                        <Text style={styles.courseCode}>{course.code}</Text>
+                      </View>
                     </View>
-                  </View>
-                  <Text style={styles.className}>{classItem.subject}</Text>
-                  <View style={styles.classMeta}>
-                    <Text style={styles.classCode}>{classItem.code}</Text>
-                    <Text style={styles.classRoom}>{classItem.room} тоот</Text>
-                    <Text style={styles.classType}>{classItem.type}</Text>
-                  </View>
-                  <View style={styles.detailsButton}>
-                    <Text style={styles.detailsButtonText}>Дэлгэрэнгүй</Text>
-                  </View>
-                </TouchableOpacity>
-              ))}
+
+                    <View style={styles.courseProgress}>
+                      <View style={styles.progressSection}>
+                        <Text style={styles.progressLabel}>Ирц</Text>
+                        <View style={styles.progressBarBackground}>
+                          <View 
+                            style={[
+                              styles.progressBarFill,
+                              { 
+                                width: `${course.details.attendance.present / course.details.attendance.total * 100}%`,
+                                backgroundColor: '#2196F3'
+                              }
+                            ]}
+                          />
+                        </View>
+                        <Text style={styles.progressText}>
+                          {course.details.attendance.present}/{course.details.attendance.total} ({course.details.attendance.percentage})
+                        </Text>
+                      </View>
+
+                      {course.details.seminarTasks.length > 0 && (
+                        <View style={styles.tasksSection}>
+                          <Text style={styles.tasksLabel}>Дараагийн даалгавар:</Text>
+                          {course.details.seminarTasks
+                            .filter(task => task.status === 'pending')
+                            .slice(0, 1)
+                            .map((task, taskIndex) => (
+                              <View key={taskIndex} style={styles.taskItem}>
+                                <Text style={styles.taskTitle}>{task.title}</Text>
+                                <Text style={styles.taskDue}>Дуусах: {task.due}</Text>
+                              </View>
+                            ))}
+                        </View>
+                      )}
+                    </View>
+
+                    <View style={styles.courseFooter}>
+                      <View style={styles.courseInfo}>
+                        <Text style={styles.courseRoom}>{course.room} тоот</Text>
+                        <Text style={styles.courseSchedule}>
+                          {classSchedule.find(day => 
+                            day.classes.some(c => c.code === course.code)
+                          )?.day}
+                        </Text>
+                      </View>
+                      <View style={styles.detailsButton}>
+                        <Text style={styles.detailsButtonText}>Дэлгэрэнгүй</Text>
+                      </View>
+                    </View>
+                  </TouchableOpacity>
+                ))}
             </View>
           </View>
         )}
@@ -511,9 +529,9 @@ const HomeScreen = () => {
             {selectedClass && (
               <>
                 <View style={styles.modalHeader}>
-                  <View>
+                  <View style={styles.modalHeaderContent}>
                     <Text style={styles.modalTitle}>{selectedClass.subject}</Text>
-                    <Text style={styles.modalSubtitle}>{selectedClass.code} | {selectedClass.time} | {selectedClass.type}</Text>
+                    <Text style={styles.modalSubtitle}>{selectedClass.code}</Text>
                   </View>
                   <TouchableOpacity onPress={closeModal} style={styles.closeButton}>
                     <Text style={styles.closeButtonText}>✕</Text>
@@ -521,113 +539,535 @@ const HomeScreen = () => {
                 </View>
                 
                 <ScrollView style={styles.modalBody}>
+                  {/* Ирц хэсэг */}
                   <View style={styles.detailSection}>
-                    <Text style={styles.detailSectionTitle}>Ирц</Text>
-                    
-                    <Text style={styles.attendanceTypeTitle}>Лекцийн ирц:</Text>
-                    <View style={styles.progressContainer}>
-                      <View style={styles.progressBarBackground}>
-                        <View 
-                          style={[
-                            styles.progressBarFill,
-                            { 
-                              width: `${selectedClass.details.lectureAttendance.present / selectedClass.details.lectureAttendance.total * 100}%`,
-                              backgroundColor: '#2196F3'
-                            }
-                          ]}
-                        />
+                    <View style={styles.sectionHeader}>
+                      <Text style={styles.detailSectionTitle}>Ирц</Text>
+                      <View style={styles.sectionBadge}>
+                        <Text style={styles.sectionBadgeText}>80%</Text>
                       </View>
-                      <Text style={styles.progressText}>
-                        {selectedClass.details.lectureAttendance.present}/{selectedClass.details.lectureAttendance.total} ({selectedClass.details.lectureAttendance.percentage})
-                      </Text>
                     </View>
                     
-                    <Text style={styles.attendanceTypeTitle}>Семинарын ирц:</Text>
-                    <View style={styles.progressContainer}>
-                      <View style={styles.progressBarBackground}>
-                        <View 
-                          style={[
-                            styles.progressBarFill,
-                            { 
-                              width: `${selectedClass.details.seminarAttendance.present / selectedClass.details.seminarAttendance.total * 100}%`,
-                              backgroundColor: '#4CAF50'
-                            }
-                          ]}
-                        />
+                    <View style={styles.attendanceContainer}>
+                      <View style={styles.attendanceCard}>
+                        <View style={styles.attendanceHeader}>
+                          <Text style={styles.attendanceLabel}>Лекц</Text>
+                          <Text style={styles.attendanceValue}>12/15</Text>
+                        </View>
+                        <View style={styles.progressContainer}>
+                          <View style={styles.progressBarBackground}>
+                            <View 
+                              style={[
+                                styles.progressBarFill,
+                                { 
+                                  width: `${selectedClass.details.attendance.present / selectedClass.details.attendance.total * 100}%`,
+                                  backgroundColor: '#2196F3'
+                                }
+                              ]}
+                            />
+                          </View>
+                        </View>
                       </View>
-                      <Text style={styles.progressText}>
-                        {selectedClass.details.seminarAttendance.present}/{selectedClass.details.seminarAttendance.total} ({selectedClass.details.seminarAttendance.percentage})
-                      </Text>
+
+                      <View style={styles.attendanceCard}>
+                        <View style={styles.attendanceHeader}>
+                          <Text style={styles.attendanceLabel}>Семинар</Text>
+                          <Text style={styles.attendanceValue}>10/12</Text>
+                        </View>
+                        <View style={styles.progressContainer}>
+                          <View style={styles.progressBarBackground}>
+                            <View 
+                              style={[
+                                styles.progressBarFill,
+                                { 
+                                  width: `${selectedClass.details.attendance.present / selectedClass.details.attendance.total * 100}%`,
+                                  backgroundColor: '#4CAF50'
+                                }
+                              ]}
+                            />
+                          </View>
+                        </View>
+                      </View>
                     </View>
-                    
+
                     <View style={styles.statsContainer}>
-                      <View style={styles.statItem}>
-                        <Text style={styles.statValue}>{selectedClass.details.lectureAttendance.present}</Text>
-                        <Text style={styles.statLabel}>Лекц ирсэн</Text>
+                      <View style={styles.statCard}>
+                        <Text style={styles.statValue}>22</Text>
+                        <Text style={styles.statLabel}>Ирсэн</Text>
                       </View>
-                      <View style={styles.statItem}>
-                        <Text style={styles.statValue}>{selectedClass.details.seminarAttendance.present}</Text>
-                        <Text style={styles.statLabel}>Семинар ирсэн</Text>
+                      <View style={styles.statCard}>
+                        <Text style={styles.statValue}>5</Text>
+                        <Text style={styles.statLabel}>Тасалсан</Text>
                       </View>
-                      <View style={styles.statItem}>
-                        <Text style={styles.statValue}>{selectedClass.details.lectureAttendance.total}</Text>
-                        <Text style={styles.statLabel}>Нийт лекц</Text>
-                      </View>
-                      <View style={styles.statItem}>
-                        <Text style={styles.statValue}>{selectedClass.details.seminarAttendance.total}</Text>
-                        <Text style={styles.statLabel}>Нийт семинар</Text>
+                      <View style={styles.statCard}>
+                        <Text style={styles.statValue}>27</Text>
+                        <Text style={styles.statLabel}>Нийт</Text>
                       </View>
                     </View>
                   </View>
-                  
+
+                  {/* Дүн хэсэг */}
                   <View style={styles.detailSection}>
-                    <Text style={styles.detailSectionTitle}>Дүн</Text>
-                    
-                    <View style={styles.scoreItem}>
-                      <Text style={styles.scoreLabel}>Семинар:</Text>
-                      <View style={styles.scoreBarContainer}>
-                        <View style={styles.scoreBarBackground}>
-                          <View 
-                            style={[
-                              styles.scoreBarFill,
-                              { 
-                                width: `${selectedClass.details.scores.seminar / 20 * 100}%`,
-                                backgroundColor: '#2196F3'
-                              }
-                            ]}
-                          />
-                        </View>
-                        <Text style={styles.scoreValue}>{selectedClass.details.scores.seminar}/20</Text>
+                    <View style={styles.sectionHeader}>
+                      <Text style={styles.detailSectionTitle}>Дүн</Text>
+                      <View style={styles.sectionBadge}>
+                        <Text style={styles.sectionBadgeText}>80%</Text>
                       </View>
                     </View>
                     
-                    <View style={styles.scoreItem}>
-                      <Text style={styles.scoreLabel}>Бие даалт:</Text>
-                      <View style={styles.scoreBarContainer}>
-                        <View style={styles.scoreBarBackground}>
-                          <View 
-                            style={[
-                              styles.scoreBarFill,
-                              { 
-                                width: `${selectedClass.details.scores.assignment / 30 * 100}%`,
-                                backgroundColor: '#9C27B0'
-                              }
-                            ]}
-                          />
-                        </View>
-                        <Text style={styles.scoreValue}>{selectedClass.details.scores.assignment}/30</Text>
-                      </View>
+                    <View style={styles.scoreContainer}>
+                      {selectedClass.code === 'CS304' && (
+                        <>
+                          <View style={styles.scoreCard}>
+                            <View style={styles.scoreHeader}>
+                              <Text style={styles.scoreLabel}>Явц 1</Text>
+                              <Text style={styles.scoreValue}>18/20</Text>
+                            </View>
+                            <View style={styles.scoreBarContainer}>
+                              <View style={styles.scoreBarBackground}>
+                                <View 
+                                  style={[
+                                    styles.scoreBarFill,
+                                    { 
+                                      width: `${(18/20) * 100}%`,
+                                      backgroundColor: '#2196F3'
+                                    }
+                                  ]}
+                                />
+                              </View>
+                            </View>
+                          </View>
+
+                          <View style={styles.scoreCard}>
+                            <View style={styles.scoreHeader}>
+                              <Text style={styles.scoreLabel}>Явц 2</Text>
+                              <Text style={styles.scoreValue}>17/20</Text>
+                            </View>
+                            <View style={styles.scoreBarContainer}>
+                              <View style={styles.scoreBarBackground}>
+                                <View 
+                                  style={[
+                                    styles.scoreBarFill,
+                                    { 
+                                      width: `${(17/20) * 100}%`,
+                                      backgroundColor: '#4CAF50'
+                                    }
+                                  ]}
+                                />
+                              </View>
+                            </View>
+                          </View>
+
+                          <View style={styles.scoreCard}>
+                            <View style={styles.scoreHeader}>
+                              <Text style={styles.scoreLabel}>Бие даалт</Text>
+                              <Text style={styles.scoreValue}>25/30</Text>
+                            </View>
+                            <View style={styles.scoreBarContainer}>
+                              <View style={styles.scoreBarBackground}>
+                                <View 
+                                  style={[
+                                    styles.scoreBarFill,
+                                    { 
+                                      width: `${(25/30) * 100}%`,
+                                      backgroundColor: '#9C27B0'
+                                    }
+                                  ]}
+                                />
+                              </View>
+                            </View>
+                          </View>
+
+                          <View style={styles.scoreCard}>
+                            <View style={styles.scoreHeader}>
+                              <Text style={styles.scoreLabel}>Бие даалт 2</Text>
+                              <View style={styles.pendingBadge}>
+                                <Text style={styles.pendingBadgeText}>Хийгдээгүй</Text>
+                              </View>
+                            </View>
+                            <View style={styles.scoreBarContainer}>
+                              <View style={styles.scoreBarBackground}>
+                                <View 
+                                  style={[
+                                    styles.scoreBarFill,
+                                    { 
+                                      width: '0%',
+                                      backgroundColor: '#9E9E9E'
+                                    }
+                                  ]}
+                                />
+                              </View>
+                            </View>
+                          </View>
+                        </>
+                      )}
+
+                      {selectedClass.code === 'CS306' && (
+                        <>
+                          <View style={styles.scoreCard}>
+                            <View style={styles.scoreHeader}>
+                              <Text style={styles.scoreLabel}>Явц 1</Text>
+                              <Text style={styles.scoreValue}>15/20</Text>
+                            </View>
+                            <View style={styles.scoreBarContainer}>
+                              <View style={styles.scoreBarBackground}>
+                                <View 
+                                  style={[
+                                    styles.scoreBarFill,
+                                    { 
+                                      width: `${(15/20) * 100}%`,
+                                      backgroundColor: '#2196F3'
+                                    }
+                                  ]}
+                                />
+                              </View>
+                            </View>
+                          </View>
+
+                          <View style={styles.scoreCard}>
+                            <View style={styles.scoreHeader}>
+                              <Text style={styles.scoreLabel}>Явц 2</Text>
+                              <Text style={styles.scoreValue}>14/20</Text>
+                            </View>
+                            <View style={styles.scoreBarContainer}>
+                              <View style={styles.scoreBarBackground}>
+                                <View 
+                                  style={[
+                                    styles.scoreBarFill,
+                                    { 
+                                      width: `${(14/20) * 100}%`,
+                                      backgroundColor: '#4CAF50'
+                                    }
+                                  ]}
+                                />
+                              </View>
+                            </View>
+                          </View>
+
+                          <View style={styles.scoreCard}>
+                            <View style={styles.scoreHeader}>
+                              <Text style={styles.scoreLabel}>Бие даалт</Text>
+                              <Text style={styles.scoreValue}>20/30</Text>
+                            </View>
+                            <View style={styles.scoreBarContainer}>
+                              <View style={styles.scoreBarBackground}>
+                                <View 
+                                  style={[
+                                    styles.scoreBarFill,
+                                    { 
+                                      width: `${(20/30) * 100}%`,
+                                      backgroundColor: '#9C27B0'
+                                    }
+                                  ]}
+                                />
+                              </View>
+                            </View>
+                          </View>
+
+                          <View style={styles.scoreCard}>
+                            <View style={styles.scoreHeader}>
+                              <Text style={styles.scoreLabel}>Бие даалт 2</Text>
+                              <View style={styles.pendingBadge}>
+                                <Text style={styles.pendingBadgeText}>Хийгдээгүй</Text>
+                              </View>
+                            </View>
+                            <View style={styles.scoreBarContainer}>
+                              <View style={styles.scoreBarBackground}>
+                                <View 
+                                  style={[
+                                    styles.scoreBarFill,
+                                    { 
+                                      width: '0%',
+                                      backgroundColor: '#9E9E9E'
+                                    }
+                                  ]}
+                                />
+                              </View>
+                            </View>
+                          </View>
+                        </>
+                      )}
+
+                      {selectedClass.code === 'CS308' && (
+                        <>
+                          <View style={styles.scoreCard}>
+                            <View style={styles.scoreHeader}>
+                              <Text style={styles.scoreLabel}>Явц 1</Text>
+                              <Text style={styles.scoreValue}>19/20</Text>
+                            </View>
+                            <View style={styles.scoreBarContainer}>
+                              <View style={styles.scoreBarBackground}>
+                                <View 
+                                  style={[
+                                    styles.scoreBarFill,
+                                    { 
+                                      width: `${(19/20) * 100}%`,
+                                      backgroundColor: '#2196F3'
+                                    }
+                                  ]}
+                                />
+                              </View>
+                            </View>
+                          </View>
+
+                          <View style={styles.scoreCard}>
+                            <View style={styles.scoreHeader}>
+                              <Text style={styles.scoreLabel}>Явц 2</Text>
+                              <Text style={styles.scoreValue}>20/20</Text>
+                            </View>
+                            <View style={styles.scoreBarContainer}>
+                              <View style={styles.scoreBarBackground}>
+                                <View 
+                                  style={[
+                                    styles.scoreBarFill,
+                                    { 
+                                      width: `${(20/20) * 100}%`,
+                                      backgroundColor: '#4CAF50'
+                                    }
+                                  ]}
+                                />
+                              </View>
+                            </View>
+                          </View>
+
+                          <View style={styles.scoreCard}>
+                            <View style={styles.scoreHeader}>
+                              <Text style={styles.scoreLabel}>Бие даалт</Text>
+                              <Text style={styles.scoreValue}>28/30</Text>
+                            </View>
+                            <View style={styles.scoreBarContainer}>
+                              <View style={styles.scoreBarBackground}>
+                                <View 
+                                  style={[
+                                    styles.scoreBarFill,
+                                    { 
+                                      width: `${(28/30) * 100}%`,
+                                      backgroundColor: '#9C27B0'
+                                    }
+                                  ]}
+                                />
+                              </View>
+                            </View>
+                          </View>
+
+                          <View style={styles.scoreCard}>
+                            <View style={styles.scoreHeader}>
+                              <Text style={styles.scoreLabel}>Бие даалт 2</Text>
+                              <View style={styles.pendingBadge}>
+                                <Text style={styles.pendingBadgeText}>Хийгдээгүй</Text>
+                              </View>
+                            </View>
+                            <View style={styles.scoreBarContainer}>
+                              <View style={styles.scoreBarBackground}>
+                                <View 
+                                  style={[
+                                    styles.scoreBarFill,
+                                    { 
+                                      width: '0%',
+                                      backgroundColor: '#9E9E9E'
+                                    }
+                                  ]}
+                                />
+                              </View>
+                            </View>
+                          </View>
+                        </>
+                      )}
+
+                      {selectedClass.code === 'CS310' && (
+                        <>
+                          <View style={styles.scoreCard}>
+                            <View style={styles.scoreHeader}>
+                              <Text style={styles.scoreLabel}>Явц 1</Text>
+                              <Text style={styles.scoreValue}>12/20</Text>
+                            </View>
+                            <View style={styles.scoreBarContainer}>
+                              <View style={styles.scoreBarBackground}>
+                                <View 
+                                  style={[
+                                    styles.scoreBarFill,
+                                    { 
+                                      width: `${(12/20) * 100}%`,
+                                      backgroundColor: '#2196F3'
+                                    }
+                                  ]}
+                                />
+                              </View>
+                            </View>
+                          </View>
+
+                          <View style={styles.scoreCard}>
+                            <View style={styles.scoreHeader}>
+                              <Text style={styles.scoreLabel}>Явц 2</Text>
+                              <Text style={styles.scoreValue}>13/20</Text>
+                            </View>
+                            <View style={styles.scoreBarContainer}>
+                              <View style={styles.scoreBarBackground}>
+                                <View 
+                                  style={[
+                                    styles.scoreBarFill,
+                                    { 
+                                      width: `${(13/20) * 100}%`,
+                                      backgroundColor: '#4CAF50'
+                                    }
+                                  ]}
+                                />
+                              </View>
+                            </View>
+                          </View>
+
+                          <View style={styles.scoreCard}>
+                            <View style={styles.scoreHeader}>
+                              <Text style={styles.scoreLabel}>Бие даалт</Text>
+                              <Text style={styles.scoreValue}>18/30</Text>
+                            </View>
+                            <View style={styles.scoreBarContainer}>
+                              <View style={styles.scoreBarBackground}>
+                                <View 
+                                  style={[
+                                    styles.scoreBarFill,
+                                    { 
+                                      width: `${(18/30) * 100}%`,
+                                      backgroundColor: '#9C27B0'
+                                    }
+                                  ]}
+                                />
+                              </View>
+                            </View>
+                          </View>
+
+                          <View style={styles.scoreCard}>
+                            <View style={styles.scoreHeader}>
+                              <Text style={styles.scoreLabel}>Бие даалт 2</Text>
+                              <View style={styles.pendingBadge}>
+                                <Text style={styles.pendingBadgeText}>Хийгдээгүй</Text>
+                              </View>
+                            </View>
+                            <View style={styles.scoreBarContainer}>
+                              <View style={styles.scoreBarBackground}>
+                                <View 
+                                  style={[
+                                    styles.scoreBarFill,
+                                    { 
+                                      width: '0%',
+                                      backgroundColor: '#9E9E9E'
+                                    }
+                                  ]}
+                                />
+                              </View>
+                            </View>
+                          </View>
+                        </>
+                      )}
+
+                      {selectedClass.code === 'MATH201' && (
+                        <>
+                          <View style={styles.scoreCard}>
+                            <View style={styles.scoreHeader}>
+                              <Text style={styles.scoreLabel}>Явц 1</Text>
+                              <Text style={styles.scoreValue}>16/20</Text>
+                            </View>
+                            <View style={styles.scoreBarContainer}>
+                              <View style={styles.scoreBarBackground}>
+                                <View 
+                                  style={[
+                                    styles.scoreBarFill,
+                                    { 
+                                      width: `${(16/20) * 100}%`,
+                                      backgroundColor: '#2196F3'
+                                    }
+                                  ]}
+                                />
+                              </View>
+                            </View>
+                          </View>
+
+                          <View style={styles.scoreCard}>
+                            <View style={styles.scoreHeader}>
+                              <Text style={styles.scoreLabel}>Явц 2</Text>
+                              <Text style={styles.scoreValue}>15/20</Text>
+                            </View>
+                            <View style={styles.scoreBarContainer}>
+                              <View style={styles.scoreBarBackground}>
+                                <View 
+                                  style={[
+                                    styles.scoreBarFill,
+                                    { 
+                                      width: `${(15/20) * 100}%`,
+                                      backgroundColor: '#4CAF50'
+                                    }
+                                  ]}
+                                />
+                              </View>
+                            </View>
+                          </View>
+
+                          <View style={styles.scoreCard}>
+                            <View style={styles.scoreHeader}>
+                              <Text style={styles.scoreLabel}>Бие даалт</Text>
+                              <Text style={styles.scoreValue}>22/30</Text>
+                            </View>
+                            <View style={styles.scoreBarContainer}>
+                              <View style={styles.scoreBarBackground}>
+                                <View 
+                                  style={[
+                                    styles.scoreBarFill,
+                                    { 
+                                      width: `${(22/30) * 100}%`,
+                                      backgroundColor: '#9C27B0'
+                                    }
+                                  ]}
+                                />
+                              </View>
+                            </View>
+                          </View>
+
+                          <View style={styles.scoreCard}>
+                            <View style={styles.scoreHeader}>
+                              <Text style={styles.scoreLabel}>Бие даалт 2</Text>
+                              <View style={styles.pendingBadge}>
+                                <Text style={styles.pendingBadgeText}>Хийгдээгүй</Text>
+                              </View>
+                            </View>
+                            <View style={styles.scoreBarContainer}>
+                              <View style={styles.scoreBarBackground}>
+                                <View 
+                                  style={[
+                                    styles.scoreBarFill,
+                                    { 
+                                      width: '0%',
+                                      backgroundColor: '#9E9E9E'
+                                    }
+                                  ]}
+                                />
+                              </View>
+                            </View>
+                          </View>
+                        </>
+                      )}
                     </View>
-                    
-                    <View style={styles.totalScoreContainer}>
-                      <Text style={styles.totalScoreLabel}>Нийт дүн:</Text>
-                      <Text style={styles.totalScoreValue}>{selectedClass.details.scores.total}/50</Text>
+
+                    <View style={styles.totalScoreCard}>
+                      <View style={styles.totalScoreHeader}>
+                        <Text style={styles.totalScoreLabel}>Нийт дүн</Text>
+                        <Text style={styles.totalScoreValue}>
+                          {selectedClass.code === 'CS304' ? '60/70' :
+                           selectedClass.code === 'CS306' ? '49/70' :
+                           selectedClass.code === 'CS308' ? '67/70' :
+                           selectedClass.code === 'CS310' ? '43/70' :
+                           '53/70'}
+                        </Text>
+                      </View>
                       <View style={styles.totalScoreBarBackground}>
                         <View 
                           style={[
                             styles.totalScoreBarFill,
                             { 
-                              width: `${selectedClass.details.scores.total / 50 * 100}%`,
+                              width: `${selectedClass.code === 'CS304' ? (60/70) * 100 :
+                                     selectedClass.code === 'CS306' ? (49/70) * 100 :
+                                     selectedClass.code === 'CS308' ? (67/70) * 100 :
+                                     selectedClass.code === 'CS310' ? (43/70) * 100 :
+                                     (53/70) * 100}%`,
                               backgroundColor: '#FF9800'
                             }
                           ]}
@@ -635,26 +1075,36 @@ const HomeScreen = () => {
                       </View>
                     </View>
                   </View>
-                  
-                  <View style={styles.detailSection}>
-                    <Text style={styles.detailSectionTitle}>Семинарын даалгавар</Text>
-                    {selectedClass.details.seminarTasks.map((task, index) => (
-                      <View key={index} style={styles.taskItem}>
-                        <View style={styles.taskInfo}>
-                          <Text style={styles.taskTitle}>{task.title}</Text>
-                          <Text style={styles.taskDue}>Дуусах хугацаа: {task.due}</Text>
-                        </View>
-                        <View style={[
-                          styles.taskStatus,
-                          { backgroundColor: getTaskStatusColor(task.status) }
-                        ]}>
-                          <Text style={styles.taskStatusText}>
-                            {task.status === 'done' ? 'Дууссан' : 'Хийгдэж байгаа'}
-                          </Text>
+
+                  {/* Даалгаврууд хэсэг */}
+                  {selectedClass.details.seminarTasks.length > 0 && (
+                    <View style={styles.detailSection}>
+                      <View style={styles.sectionHeader}>
+                        <Text style={styles.detailSectionTitle}>Даалгаврууд</Text>
+                        <View style={styles.sectionBadge}>
+                          <Text style={styles.sectionBadgeText}>2</Text>
                         </View>
                       </View>
-                    ))}
-                  </View>
+                      <View style={styles.tasksContainer}>
+                        {selectedClass.details.seminarTasks.map((task, index) => (
+                          <View key={index} style={styles.taskCard}>
+                            <View style={styles.taskInfo}>
+                              <Text style={styles.taskTitle}>{task.title}</Text>
+                              <Text style={styles.taskDue}>Дуусах: {task.due}</Text>
+                            </View>
+                            <View style={[
+                              styles.taskStatus,
+                              { backgroundColor: getTaskStatusColor(task.status) }
+                            ]}>
+                              <Text style={styles.taskStatusText}>
+                                {task.status === 'done' ? 'Дууссан' : 'Хийгдэж байгаа'}
+                              </Text>
+                            </View>
+                          </View>
+                        ))}
+                      </View>
+                    </View>
+                  )}
                 </ScrollView>
               </>
             )}
@@ -1009,7 +1459,7 @@ const styles = StyleSheet.create({
   classesContainer: {
     marginBottom: 20,
   },
-  classCard: {
+  courseCard: {
     backgroundColor: '#FFFFFF',
     borderRadius: 16,
     padding: 16,
@@ -1020,54 +1470,97 @@ const styles = StyleSheet.create({
     shadowRadius: 8,
     elevation: 2,
   },
-  classHeader: {
+  courseHeader: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    alignItems: 'center',
-    marginBottom: 12,
+    alignItems: 'flex-start',
+    marginBottom: 16,
   },
-  classTime: {
-    fontSize: 14,
-    color: '#757575',
-    fontWeight: '500',
+  courseTitleContainer: {
+    flex: 1,
+    marginRight: 12,
   },
-  statusBadge: {
-    paddingHorizontal: 10,
-    paddingVertical: 4,
-    borderRadius: 12,
-  },
-  classStatus: {
-    fontSize: 12,
-    fontWeight: '600',
-    color: '#FFFFFF',
-  },
-  className: {
+  courseName: {
     fontSize: 17,
     fontWeight: '600',
     color: '#2B2B40',
-    marginBottom: 8,
+    marginBottom: 4,
   },
-  classMeta: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+  courseCode: {
+    fontSize: 14,
+    color: '#757575',
+  },
+  courseProgress: {
+    marginBottom: 16,
+  },
+  progressSection: {
     marginBottom: 12,
   },
-  classCode: {
+  progressLabel: {
     fontSize: 14,
+    color: '#616161',
+    marginBottom: 8,
+  },
+  progressBarBackground: {
+    height: 6,
+    backgroundColor: '#EEEEEE',
+    borderRadius: 3,
+    marginBottom: 4,
+    overflow: 'hidden',
+  },
+  progressBarFill: {
+    height: '100%',
+    borderRadius: 3,
+  },
+  progressText: {
+    fontSize: 12,
     color: '#757575',
   },
-  classRoom: {
-    fontSize: 14,
-    color: '#757575',
+  tasksSection: {
+    backgroundColor: '#F5F5F5',
+    borderRadius: 8,
+    padding: 12,
   },
-  classType: {
-    fontSize: 14,
+  tasksLabel: {
+    fontSize: 13,
+    color: '#616161',
+    marginBottom: 8,
+  },
+  taskItem: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  taskTitle: {
+    fontSize: 13,
     color: '#2B2B40',
-    fontWeight: '500',
-    fontStyle: 'italic',
+    flex: 1,
+    marginRight: 8,
+  },
+  taskDue: {
+    fontSize: 12,
+    color: '#757575',
+  },
+  courseFooter: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginTop: 8,
+  },
+  courseInfo: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  courseRoom: {
+    fontSize: 13,
+    color: '#757575',
+    marginRight: 12,
+  },
+  courseSchedule: {
+    fontSize: 13,
+    color: '#757575',
   },
   detailsButton: {
-    alignSelf: 'flex-end',
     paddingHorizontal: 12,
     paddingVertical: 6,
     borderRadius: 8,
@@ -1088,7 +1581,7 @@ const styles = StyleSheet.create({
     width: '90%',
     maxHeight: '80%',
     backgroundColor: '#FFFFFF',
-    borderRadius: 20,
+    borderRadius: 24,
     overflow: 'hidden',
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 4 },
@@ -1103,15 +1596,19 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
   },
+  modalHeaderContent: {
+    flex: 1,
+    marginRight: 12,
+  },
   modalTitle: {
-    fontSize: 20,
+    fontSize: 22,
     fontWeight: '700',
     color: '#FFFFFF',
+    marginBottom: 4,
   },
   modalSubtitle: {
-    fontSize: 14,
+    fontSize: 15,
     color: 'rgba(255, 255, 255, 0.8)',
-    marginTop: 4,
   },
   closeButton: {
     width: 36,
@@ -1136,41 +1633,58 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: '700',
     color: '#2B2B40',
+  },
+  sectionBadge: {
+    backgroundColor: '#E3F2FD',
+    paddingHorizontal: 12,
+    paddingVertical: 4,
+    borderRadius: 12,
+  },
+  sectionBadgeText: {
+    fontSize: 13,
+    fontWeight: '600',
+    color: '#1976D2',
+  },
+  attendanceContainer: {
     marginBottom: 16,
   },
-  attendanceTypeTitle: {
-    fontSize: 14,
-    color: '#616161',
-    marginBottom: 8,
-    marginTop: 12,
+  attendanceCard: {
+    backgroundColor: '#F8F9FA',
+    borderRadius: 12,
+    padding: 16,
+    marginBottom: 12,
+  },
+  attendanceHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 12,
+  },
+  attendanceLabel: {
+    fontSize: 15,
+    fontWeight: '600',
+    color: '#2B2B40',
+  },
+  attendanceValue: {
+    fontSize: 15,
+    fontWeight: '600',
+    color: '#757575',
   },
   progressContainer: {
-    marginBottom: 16,
-  },
-  progressBarBackground: {
-    height: 8,
-    backgroundColor: '#EEEEEE',
-    borderRadius:4,
-  marginBottom: 8,
-    overflow: 'hidden',
-  },
-  progressBarFill: {
-    height: '100%',
-    borderRadius: 4,
-  },
-  progressText: {
-    fontSize: 14,
-    color: '#757575',
-    textAlign: 'center',
+    marginTop: 8,
   },
   statsContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginTop: 12,
+    marginTop: 16,
   },
-  statItem: {
-    alignItems: 'center',
+  statCard: {
     flex: 1,
+    backgroundColor: '#F8F9FA',
+    borderRadius: 12,
+    padding: 12,
+    marginHorizontal: 4,
+    alignItems: 'center',
   },
   statValue: {
     fontSize: 20,
@@ -1182,57 +1696,68 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: '#757575',
   },
-  scoreItem: {
+  scoreContainer: {
     marginBottom: 16,
+  },
+  scoreCard: {
+    backgroundColor: '#F8F9FA',
+    borderRadius: 12,
+    padding: 16,
+    marginBottom: 12,
+  },
+  scoreHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 12,
   },
   scoreLabel: {
     fontSize: 15,
-    color: '#616161',
-    marginBottom: 8,
+    fontWeight: '600',
+    color: '#2B2B40',
+  },
+  scoreValue: {
+    fontSize: 15,
+    fontWeight: '600',
+    color: '#757575',
   },
   scoreBarContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
+    marginTop: 8,
   },
   scoreBarBackground: {
-    flex: 1,
     height: 6,
-    backgroundColor: '#EEEEEE',
+    backgroundColor: '#E0E0E0',
     borderRadius: 3,
-    marginRight: 12,
     overflow: 'hidden',
   },
   scoreBarFill: {
     height: '100%',
     borderRadius: 3,
   },
-  scoreValue: {
-    fontSize: 14,
-    color: '#757575',
-    minWidth: 50,
-    textAlign: 'right',
+  totalScoreCard: {
+    backgroundColor: '#F8F9FA',
+    borderRadius: 12,
+    padding: 16,
   },
-  totalScoreContainer: {
-    marginTop: 20,
-    paddingTop: 20,
-    borderTopWidth: 1,
-    borderTopColor: '#EEEEEE',
+  totalScoreHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 12,
   },
   totalScoreLabel: {
     fontSize: 16,
     fontWeight: '600',
     color: '#2B2B40',
-    marginBottom: 8,
   },
   totalScoreValue: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: '700',
     color: '#2B2B40',
-    marginBottom: 12,
   },
   totalScoreBarBackground: {
     height: 8,
-    backgroundColor: '#EEEEEE',
+    backgroundColor: '#E0E0E0',
     borderRadius: 4,
     overflow: 'hidden',
   },
@@ -1240,6 +1765,54 @@ const styles = StyleSheet.create({
     height: '100%',
     borderRadius: 4,
   },
+  tasksContainer: {
+    marginTop: 8,
+  },
+  taskCard: {
+    backgroundColor: '#F8F9FA',
+    borderRadius: 12,
+    padding: 16,
+    marginBottom: 12,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  taskInfo: {
+    flex: 1,
+    marginRight: 12,
+  },
+  taskTitle: {
+    fontSize: 15,
+    fontWeight: '600',
+    color: '#2B2B40',
+    marginBottom: 4,
+  },
+  taskDue: {
+    fontSize: 13,
+    color: '#757575',
+  },
+  taskStatus: {
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 12,
+  },
+  taskStatusText: {
+    fontSize: 12,
+    fontWeight: '600',
+    color: '#FFFFFF',
+  },
+  pendingBadge: {
+    backgroundColor: '#FFE0B2',
+    paddingHorizontal: 12,
+    paddingVertical: 4,
+    borderRadius: 12,
+  },
+  pendingBadgeText: {
+    fontSize: 12,
+    fontWeight: '600',
+    color: '#F57C00',
+  },
 });
 
 export default HomeScreen;
+
